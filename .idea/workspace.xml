@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5fb05643-b231-403a-a6fc-f85666914376" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1wUMCEJR19nRfOJhGL10szztgAo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Drupal\Weebpal\thanh-weebpal\js" />
+      <recent name="D:\Drupal\Weebpal\thanh-weebpal\config" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5fb05643-b231-403a-a6fc-f85666914376" name="Default Changelist" comment="" />
+      <created>1628508586928</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628508586928</updated>
+      <workItem from="1628508589393" duration="1355000" />
+      <workItem from="1628560699403" duration="423000" />
+      <workItem from="1628561255947" duration="22086000" />
+      <workItem from="1628645181692" duration="10455000" />
+      <workItem from="1628673046921" duration="1569000" />
+      <workItem from="1628687848085" duration="8035000" />
+      <workItem from="1628730167554" duration="13084000" />
+      <workItem from="1628749137941" duration="7791000" />
+      <workItem from="1628757248580" duration="4728000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="174" key="#Deployment" timestamp="1628757381393">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="552" y="174" key="#Deployment/0.0.1920.1032@0.0.1920.1032" timestamp="1628757381393" />
+    <state x="314" y="379" key="#SQL_Dialects" timestamp="1628732897244">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="314" y="379" key="#SQL_Dialects/0.0.1920.1032@0.0.1920.1032" timestamp="1628732897244" />
+    <state x="536" y="161" key="#SSH_Configurations" timestamp="1628509181594">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="536" y="161" key="#SSH_Configurations/0.0.1920.1032@0.0.1920.1032" timestamp="1628509181594" />
+    <state x="166" y="177" width="1092" height="766" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1628647257127">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="166" y="177" width="1092" height="766" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1628647257127" />
+    <state x="765" y="198" key="#com.intellij.ide.util.MemberChooser" timestamp="1628579348406">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="765" y="198" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1628579348406" />
+    <state x="690" y="263" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1628688947142">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="690" y="263" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1628688947142" />
+    <state x="140" y="122" width="1736" height="848" key="DiffContextDialog" timestamp="1628674250079">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="140" y="122" width="1736" height="848" key="DiffContextDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1628674250079" />
+    <state x="717" y="293" key="FileChooserDialogImpl" timestamp="1628674225026">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="717" y="293" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1628674225026" />
+    <state x="778" y="239" key="NewPhpClassDialog" timestamp="1628689671361">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="778" y="239" key="NewPhpClassDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1628689671361" />
+    <state x="794" y="439" key="NewPhpFileDialog" timestamp="1628759590175">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="794" y="439" key="NewPhpFileDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1628759590175" />
+    <state x="0" y="164" key="SettingsEditor" timestamp="1628580001946">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="0" y="164" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1628580001946" />
+    <state x="805" y="246" key="ftp.server.browser" timestamp="1628674602501">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="805" y="246" key="ftp.server.browser/0.0.1920.1032@0.0.1920.1032" timestamp="1628674602501" />
+    <state x="616" y="238" key="run.anything.popup" timestamp="1628673101379">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="616" y="238" key="run.anything.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1628673101379" />
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1628733794581">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1628733794581" />
+    <state x="769" y="383" key="webDeployment.PermissionsDialog" timestamp="1628759986918">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="756" y="254" key="webDeployment.PermissionsDialog.Tabs" timestamp="1628759990287">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="756" y="254" key="webDeployment.PermissionsDialog.Tabs/0.0.1920.1032@0.0.1920.1032" timestamp="1628759990287" />
+    <state x="769" y="383" key="webDeployment.PermissionsDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1628759986918" />
+  </component>
+</project>

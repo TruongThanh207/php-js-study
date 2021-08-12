@@ -15,6 +15,8 @@
     }
 
 
+
+
 //variable
 
     //const
@@ -121,7 +123,13 @@
     console.log("dog: " + dog)
     console.log(dog)
     console.log('height: ' + dog.height)
+//string
+    let hello = "Hello Viet Nam"
+    console.log(hello.length);
+    console.log(hello.slice(6,10));
+    console.log(hello.substr(11, 3));
 
+//jquery
 
 $(document).ready(function (){
     $('#hide').click(function (){
@@ -129,6 +137,10 @@ $(document).ready(function (){
     })
     $('#show').click(function (){
         $('#demo').show()
+    })
+
+    $('#mouse').hover(function (){
+        $('#mouse').css('color', 'blue')
     })
 })
 
