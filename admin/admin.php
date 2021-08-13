@@ -28,6 +28,9 @@ if(isset($_POST['action'])){
                echo $update;
                $result = $db->getAllUser();
             }
+            else{
+                echo "<script>alert('Please enter id')</script>";
+            }
             break;
     }
 }
@@ -41,6 +44,7 @@ if(isset($_POST['action'])){
     <style>
         table, th, td {
             border: 1px solid black;
+            line-height: 2;
         }
         #form{
             display: flex;

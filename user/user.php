@@ -46,18 +46,26 @@ else{
 <head>
     <meta charset="UTF-8">
     <title>User</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <style>
         .info_user{
-            width: 30%;
+            width: 20%;
             border-radius: 5px;
             background-color: #f2f2f2;
             padding: 20px;
-            text-align: center;
             margin-left: 35%;
+            height: 330px;
         }
         input{
-            margin-left: 20px;
-            margin-right:20px;
+            float:right;
+            line-height: 2;
+        }
+        h2 {
+            text-align: center;
+        }
+        button {
+            line-height: 2;
+            float: right;
         }
     </style>
 
@@ -90,19 +98,32 @@ else{
             <input type="text" name="username" id="username" value="<?php echo $username;?>">
         </div>
         <br>
-        <div style="margin-left: -25px">
+        <div>
             <label for="old-password"> Old - Password </label>
             <input type="password" name="old-password" id="old-password">
         </div>
         <br>
-        <div style="margin-left: -25px">
+        <div>
             <label for="new-password"> New- Password </label>
-            <input type="password" name="new-password" id="new-password">
+            <input type="password" name="new-password" disabled="false" id="new-password">
         </div>
         <br>
         <button type="submit" name="Edit">Edit</button>
     </form>
 </div>
 
+<script>
+    $(document).ready(function (){
+        $('#old-password').change(function(){
+                if($(this).val()!==""){
+                    $('#new-password').removeAttr("disabled")
+                }
+                else{
+                    $('#new-password').attr('disabled','disabled')
+                    $('#new-password').val("")
+                }
+        })
+    })
+</script>
 </body>
 </html>

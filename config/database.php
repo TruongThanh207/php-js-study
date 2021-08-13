@@ -61,7 +61,7 @@ class Database{
 
         //check exist
         if($user->num_rows>0){
-            return "User has exist!";
+            return "<script>alert('User has exist!')</script>";
         }
         else{
             $pass = password_hash($password, PASSWORD_BCRYPT);
@@ -83,7 +83,7 @@ class Database{
 
         //check exist
         if($user==null){
-            return "User not exist!";
+            return "<script>alert('User not exist!)</script>";
         }
         while($row = $user->fetch_assoc()) {
             if ($firstname == '') {
@@ -104,7 +104,7 @@ class Database{
         {
             $sql = "UPDATE ".$this->table ." SET firstname = '$firstname', lastname = '$lastname', email = '$email', username = '$username' WHERE id = '$id'";
             if($this->conn->query($sql)){
-                return "Update data success";
+                return "<script>alert('Update data success')</script>";
             }
             else{
                 return 'Error: '. $this->db->error;
@@ -114,7 +114,7 @@ class Database{
             $pass = password_hash($password, PASSWORD_BCRYPT);
             $sql = "UPDATE ".$this->table ." SET firstname = '$firstname', lastname = '$lastname', email = '$email', username = '$username', password = '$pass' WHERE id = '$id'";
             if($this->conn->query($sql)){
-                return "Update data success";
+                return "<script>alert('Update data success')</script>";
             }
             else{
                 return 'Error: '. $this->db->error;
@@ -127,7 +127,7 @@ class Database{
     function deleteByUsername($username){
         $sql = "Delete from ".$this->table." WHERE username = '$username'";
         if($this->conn->query($sql)){
-            return "Delete data success";
+            return "<script>alert('Delete data success')</script>";
         }
         else{
             return 'Error: '. $this->conn->error;
