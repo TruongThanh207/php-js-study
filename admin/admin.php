@@ -7,7 +7,7 @@ if(isset($_SESSION['username'])){
     $result = $db->getAllUser();
 }
 else{
-    header("Location: /");
+    header("Location: /php-js-study");
 }
 
 

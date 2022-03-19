@@ -38,7 +38,7 @@ if(isset($_COOKIE['username']))
     }
 }
 else{
-    header("Location: /");
+    header("Location: /php-js-study");
 }
 ?>
 <!DOCTYPE html>

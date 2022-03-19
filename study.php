@@ -6,7 +6,7 @@ echo '<hr>Form<br>';
 
 include 'config/database.php';
 $db = new Database();
-$db->checkConnection();
+var_dump($db->checkConnection());
 
 //post
 if(!empty($_POST['username'])&&!empty($_POST['password']))

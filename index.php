@@ -11,14 +11,15 @@ if(isset($_POST['action'])){
             $log = $db->getByUsername($_POST['username']);
             if($log->num_rows>0){
                 while ($row = $log->fetch_assoc()){
+                    var_dump(password_verify($_POST['password'], $row['password']));
                     if(password_verify($_POST['password'], $row['password'])){
                         if($row['roles']==1) {
-                            header("Location: admin/admin.php");
+                            header("Location: /php-js-study/admin/admin.php");
                             $_SESSION['username'] = $_POST['username'];
                         }
                         else {
-                            header("Location: user/user.php");
-                            setcookie("username", $_POST['username'], time()+1800, "/user/user.php");
+                            header("Location: /php-js-study/user/user.php");
+                            setcookie("username", $_POST['username'], time()+1800, "/php-js-study/user/user.php");
                         }
                     }
                     echo 'Username or password incorrect!';
@@ -30,7 +31,7 @@ if(isset($_POST['action'])){
             }
             break;
         case "register":
-            $res = $db->insertUser($_POST['firstname'], $_POST['lastname'], $_POST['email'], $_POST['username'], $_POST['password'], 0);
+            $res = $db->insertUser($_POST['firstname'], $_POST['lastname'], $_POST['email'], $_POST['username'], $_POST['password'], 1);
             echo $res;
             break;
     }
@@ -108,7 +109,7 @@ if(isset($_POST['action'])){
 
 <div class="login">
     <h2>Form Login</h2>
-    <form action="/" method="post">
+    <form action="/php-js-study/index.php" method="post">
         <input type="hidden" class="hidden" name="action" value="login">
         <div>
             <label for="username"> Username </label>
@@ -169,7 +170,7 @@ if(isset($_POST['action'])){
             var valid = validateRegister()
             if(valid){
                 $.ajax({
-                    url: "/controller/index.php?action=register",
+                    url: "/php-js-study/controller/index.php?action=register",
                     type: "post",
                     data: {
                         firstname: $('#firstname').val(),

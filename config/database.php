@@ -1,8 +1,8 @@
 <?php
 define("servername","localhost");
-define("username","sgu");
-define("password","k9HhFMRDW1Y5");
-define("database","sgu_thanhphp");
+define("username","root");
+define("password","");
+define("database","php_study");
 
 class Database{
     private $table;
@@ -65,7 +65,7 @@ class Database{
         }
         else{
             $pass = password_hash($password, PASSWORD_BCRYPT);
-            $sql = "INSERT INTO `Users`(`id`, `firstname`, `lastname`, `email`, `username`, `password`, `roles`) VALUES (null,'$firstname','$lastname','$email','$username','$pass',0)";
+            $sql = "INSERT INTO `Users`(`id`, `firstname`, `lastname`, `email`, `username`, `password`, `roles`) VALUES (null,'$firstname','$lastname','$email','$username','$pass',1)";
             if($this->conn->query($sql)){
                 return "Insert data success";
             }
